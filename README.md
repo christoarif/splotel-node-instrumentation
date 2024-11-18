@@ -1,6 +1,8 @@
 This is a personal example.
 
-This repo gives a simple and concrete example on how you can instrument a Node.js app programatically using the [splunk otel js](https://github.com/signalfx/splunk-otel-js) package to be able to send traces directly to Splunk Observability Cloud endpoint. This might be done when you are unable to install OpenTelemetry Collector in the host where you are running the application.
+This repo gives a simple and concrete example on how you can instrument a Node.js app programatically using the [splunk otel js](https://github.com/signalfx/splunk-otel-js) package to be able to send traces directly to Splunk Observability Cloud endpoint. This might be done when you are unable to install OpenTelemetry Collector in the host where you are running the application. 
+
+As much as possible, we would want to use the OTel Collector for scalability and performance.
 
 To start sending data, you need to add the following to where your services are defined
 
